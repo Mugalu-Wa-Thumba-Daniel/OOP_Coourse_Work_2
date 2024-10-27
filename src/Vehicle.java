@@ -13,4 +13,15 @@ public abstract class Vehicle {
 
     public abstract void displayDetails();
     public abstract double getFuelConsumption(); // New method
+
+    // Getters and setters
+    public String getBrand() {
+        return brand;
+    }
+    public String getModel() {
+        return model;
+    }
+    public int getYear() {
+        return year;
+    }
 }
