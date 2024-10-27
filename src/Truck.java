@@ -14,4 +14,9 @@ public class Truck extends Vehicle {
     public void displayDetails() {
         System.out.println("\n\t The Truck's Brand is \t\t\t: " + getBrand() + "\n\t The Truck's Model is \t\t\t: " + getModel() + "\n\t The Truck's Cargo Capacity is \t: " + cargoCapacity);
     }
+
+    @Override
+    public double getFuelConsumption() {
+        return fuelConsumption;
+    }
 }
