@@ -14,4 +14,9 @@ public class Motorcycle extends Vehicle {
     public void displayDetails() {
         System.out.println("\n\t The Motorcycle's Brand is \t\t: " + getBrand() + "\n\t THe Model Of the Motorwycle is : " + getModel() + "\n\t The Engine Capacity is \t\t:" + engineCapacity);
     }
+
+    @Override
+    public double getFuelConsumption() {
+        return fuelConsumption;
+    }
 }
