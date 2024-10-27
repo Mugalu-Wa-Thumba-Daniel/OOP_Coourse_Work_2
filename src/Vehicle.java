@@ -10,4 +10,7 @@ public abstract class Vehicle {
         this.model = model;
         this.year = year;
     }
+
+    public abstract void displayDetails();
+    public abstract double getFuelConsumption(); // New method
 }
