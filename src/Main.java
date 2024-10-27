@@ -3,6 +3,7 @@ public class Main {
         Vehicle[] vehicles = new Vehicle[] {
                 new Car("Toyota", "Camry", 2022,300.10, 7.8),
                 new Motorcycle("Honda", "CBR500R", 2022, 5000, 3.5),
+                new Truck("Ford", "F-150", 2022, 2000, 12.5)
         };
     }
 }
